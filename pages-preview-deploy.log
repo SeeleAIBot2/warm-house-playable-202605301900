@@ -1,0 +1,31 @@
+Proxy environment variables detected. We'll use your proxy for fetch requests.
+
+ ⛅️ wrangler 4.80.0 (update available 4.95.0)
+─────────────────────────────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA request to the Cloudflare API (/accounts/2e169f09e655087ce02c764d8fc73492/pages/projects/claw-docs/upload-token) failed.[0m
+
+  Authentication error [code: 10000]
+
+
+📎 It looks like you are authenticating Wrangler via a custom API token set in an environment variable.
+Please ensure it has the correct permissions for this operation.
+
+Getting User settings...
+👋 You are logged in with an Account API Token, associated with the account Business@seeles.ai's Account.
+ℹ️  The API Token is read from the CLOUDFLARE_API_TOKEN environment variable.
+┌──────────────────────────────┬──────────────────────────────────┐
+│ Account Name                 │ Account ID                       │
+├──────────────────────────────┼──────────────────────────────────┤
+│ Business@seeles.ai's Account │ 2e169f09e655087ce02c764d8fc73492 │
+└──────────────────────────────┴──────────────────────────────────┘
+🔓 To see token permissions visit https://dash.cloudflare.com/2e169f09e655087ce02c764d8fc73492/api-tokens.
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA request to the Cloudflare API (/memberships) failed.[0m
+
+  Authentication failed (status: 400) [code: 9106]
+  
+  If you think this is a bug, please open an issue at: [4mhttps://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+
+
+🪵  Logs were written to "/Users/seeles/.wrangler/logs/wrangler-2026-05-30_10-59-03_883.log"
