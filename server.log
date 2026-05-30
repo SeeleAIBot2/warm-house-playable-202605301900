@@ -43,3 +43,11 @@
 ::ffff:127.0.0.1 - - [30/May/2026 22:11:01] "GET /assets/chair_blue.png HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [30/May/2026 22:11:01] "GET /assets/armchair_orange.png HTTP/1.1" 304 -
 ::ffff:127.0.0.1 - - [30/May/2026 22:11:19] "GET /index.html?v=v46 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /index.html?v=bgm2 HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /assets/brush_small.png HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /character_3d_woman_cut.png HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /assets/sofa_green.png HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /assets/chair_blue.png HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /assets/armchair_orange.png HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] code 404, message File not found
+::ffff:127.0.0.1 - - [30/May/2026 22:46:37] "GET /favicon.ico HTTP/1.1" 404 -
