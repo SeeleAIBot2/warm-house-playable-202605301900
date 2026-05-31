@@ -141,14 +141,14 @@
 }
 
 
-/* PC merge-grid safety: desktop does not use the compact mobile rules above, so keep furniture inside each cell's visual box. */
+/* PC merge-grid safety: desktop needs full furniture visible, scaled to the cell — never clipped. */
 @media (min-width:700px) and (min-height:521px){
   #merge .grid .cell{overflow:visible!important;}
-  #merge .grid .cell .item{inset:6px!important;width:auto!important;height:auto!important;overflow:hidden!important;display:grid!important;place-items:center!important;}
-  #merge .grid .cell .item .assetIcon{display:block!important;object-fit:contain!important;max-width:100%!important;max-height:100%!important;margin:auto!important;filter:drop-shadow(0 4px 3px rgba(0,0,0,.16))!important;}
-  #merge .grid .cell .item[data-type="chair"] .assetIcon{width:72%!important;height:88%!important;padding:0!important;}
-  #merge .grid .cell .item[data-type="armchair"] .assetIcon{width:78%!important;height:82%!important;padding:0!important;}
-  #merge .grid .cell .item[data-type="loveseat"] .assetIcon{width:88%!important;height:78%!important;padding:0!important;}
+  #merge .grid .cell .item{inset:6px!important;width:auto!important;height:auto!important;overflow:visible!important;display:grid!important;place-items:center!important;}
+  #merge .grid .cell .item .assetIcon{display:block!important;object-fit:contain!important;margin:auto!important;padding:0!important;filter:drop-shadow(0 4px 3px rgba(0,0,0,.16))!important;}
+  #merge .grid .cell .item[data-type="chair"] .assetIcon{width:58px!important;height:58px!important;max-width:58px!important;max-height:58px!important;}
+  #merge .grid .cell .item[data-type="armchair"] .assetIcon{width:78px!important;height:58px!important;max-width:78px!important;max-height:58px!important;}
+  #merge .grid .cell .item[data-type="loveseat"] .assetIcon{width:98px!important;height:58px!important;max-width:98px!important;max-height:58px!important;}
   #merge .grid .cell .item.dragging{overflow:visible!important;}
 }
 </style>
